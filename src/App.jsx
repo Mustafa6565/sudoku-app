@@ -2,6 +2,7 @@
 
 import './App.css'
 import Grid from './components/Grid';
+import Grid9x9 from './components/Sudoku';
 import { ContextProvider } from './contexts/Context';
 
 
@@ -11,8 +12,8 @@ function App() {
 
     <ContextProvider >
 
+      <Grid9x9 />
 
-      <Grid />
     </ContextProvider>
 
   );
